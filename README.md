@@ -1,4 +1,4 @@
-# Doubt-Solver-AI
+# Doubt-Solver-AI Ver. 1.1
 A Hinglish/English/Hindi-based AI Doubt Solver for CBSE Class 9–12 students.  
 Built using Python + Streamlit + Sentence Transformers.  
 
