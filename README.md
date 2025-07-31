@@ -5,7 +5,7 @@ Built using Python + Streamlit + Sentence Transformers.
 ## Features
 - Instant doubt solving
 - Multilingual support (Hinglish + Hindi + English)
-- 2000+ embedded questions
+- 250+ embedded questions
 - Self-hostable with one command
 
 ## Run Locally
