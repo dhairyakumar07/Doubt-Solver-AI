@@ -1,2 +1,18 @@
 # Doubt-Solver-AI
-A Doubt Solver AI For clearing Class 9-12th Going upto JEE/NEET level Doubts
+A Hinglish/English/Hindi-based AI Doubt Solver for CBSE Class 9–12 students.  
+Built using Python + Streamlit + Sentence Transformers.  
+
+## Features
+- Instant doubt solving
+- Multilingual support (Hinglish + Hindi + English)
+- 2000+ embedded questions
+- Self-hostable with one command
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+
+~Made By Dhairya Kumar
+Contact here- dhairyadhiman620@gmail.com
