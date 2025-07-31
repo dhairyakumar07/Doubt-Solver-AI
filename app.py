@@ -42,11 +42,11 @@ if user_question:
     best_match_index = int(np.argmax(similarities))
     best_score = similarities[best_match_index]
 
-    # Threshold logic
-if best_score > 0.70:
-    matched_q = data[best_match_index]["question"]
-    answer = data[best_match_index]["answer"]
-    st.markdown(f"**Matched Question:** {matched_q}")
-    st.markdown(f"**Answer:** {answer}")
-else:
-    st.warning("❌ Sorry, no relevant answer found in the database.")
+    # Threshold logic — moved **inside** the block
+    if best_score > 0.70:
+        matched_q = data[best_match_index]["question"]
+        answer = data[best_match_index]["answer"]
+        st.markdown(f"**Matched Question:** {matched_q}")
+        st.markdown(f"**Answer:** {answer}")
+    else:
+        st.warning("❌ Sorry, no relevant answer found in the database.")
